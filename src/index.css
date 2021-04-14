@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  scrollbar-color: rgb(247, 18, 18) rgb(243, 140, 4, 0) !important;
+  scrollbar-width: thin !important;
+}
+
+/*firefox için  scroll bar duzenleme kodu*/
+
+/*chrome için scrollbar duzenleme kodu.*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px rgb(224, 109, 109); */
+  border-radius: 6px;
+  background: #1F2020;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #434545;
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3E3E3F;
+}
+
